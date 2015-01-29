@@ -5636,8 +5636,18 @@ body {
     padding: 12px 12px 6px;
     background-color: #BFBFBF;
     color: #333333;
+    border: solid 1px #aeaeae;
     position: absolute;
     bottom: 0;
     width: 100%;
     /* Set the fixed height of the footer here */
     height: 50px; }
+
+.blue {
+  color: #17365D; }
+
+.red {
+  color: #C00000; }
+
+.gray {
+  color: #BFBFBF; }

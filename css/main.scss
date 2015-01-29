@@ -29,6 +29,7 @@ body{
     padding: 2*$padding-base-vertical $padding-base-horizontal $padding-base-vertical;
     background-color: $navbar-default-bg;
     color: $navbar-default-color;
+    border: solid 1px $navbar-default-border;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -36,3 +37,7 @@ body{
     height: $navbar-height;
   }
 }
+
+.blue { color: $brand-blue; }
+.red { color: $brand-red; }
+.gray { color: $brand-gray; }
