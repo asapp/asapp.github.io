@@ -1,0 +1,11 @@
+---
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+      title: Asapp - créateur d'applications web
+      company_name: 'as:app'
+---

@@ -1,0 +1,27 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+@import url(http://fonts.googleapis.com/css?family=Didact+Gothic);
+@import "theme/variables";
+@import "bootstrap";
+
+body{
+  padding-top: $navbar-height;
+
+  .navbar-fixed-top {
+    z-index: 10;
+  }
+
+  & > .container {
+    margin-top: $padding-base-vertical;
+    margin-bottom: $padding-base-vertical;
+    background-color: #ffffff;
+  }
+
+  footer {
+    padding: $padding-base-vertical $padding-base-horizontal;
+    background-color: $navbar-default-bg;
+    color: $navbar-default-color;
+  }
+}
